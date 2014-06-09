@@ -98,11 +98,11 @@ rm -rf %{buildroot}
 
 %files unit-tests
 %defattr(-,root,root,-)
-/opt/tests/libcommhistory-qt5-unit-tests/*
+#/opt/tests/libcommhistory-qt5-unit-tests/*
 
 %files performance-tests
 %defattr(-,root,root,-)
-/opt/tests/libcommhistory-qt5-performance-tests/*
+#/opt/tests/libcommhistory-qt5-performance-tests/*
 
 %files devel
 %defattr(-,root,root,-)
